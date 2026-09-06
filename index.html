@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ذاكر - منصة الثانوية العامة والبكالوريا</title>
+    <meta name="description" content="منصة مذاكرة مجانية 100% وشاملة لصفوف الثانوية العامة والبكالوريا الثلاثة مع بنك أسئلة وامتحانات تفاعلية ومعلم ذكي للشرح." />
+    <meta name="keywords" content="ثانوية عامة, بكالوريا, تالتة ثانوي, تانية ثانوي, أولى ثانوي, امتحانات الكترونية, بنك أسئلة, علمي علوم, علمي رياضة, أدبي, مذاكرة مجانية, منصة ذاكر" />
+    <meta name="author" content="منصة ذاكر التعليمية" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#059669" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="ذاكر" />
+    <meta property="og:title" content="ذاكر - منصة الثانوية العامة والبكالوريا" />
+    <meta property="og:description" content="منصة مذاكرة مجانية 100% وشاملة لصفوف الثانوية العامة والبكالوريا الثلاثة مع بنك أسئلة وامتحانات تفاعلية ومعلم ذكي للشرح." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ar_EG" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/icon.svg" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalApplication",
+      "name": "ذاكر - منصة الثانوية العامة والبكالوريا",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "All",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EGP"
+      },
+      "description": "منصة تعليمية مجانية متكاملة لطلاب الثانوية العامة والبكالوريا المصرية"
+    }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Alexandria:wght@400;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-slate-50 text-slate-900 font-['Tajawal',sans-serif] antialiased selection:bg-emerald-500 selection:text-white">
+    <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

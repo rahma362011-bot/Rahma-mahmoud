@@ -1,0 +1,8 @@
+{
+  "name": "ذاكر - منصة الثانوية العامة والبكالوريا",
+  "description": "منصة مذاكرة مجانية 100% وشاملة لصفوف الثانوية العامة والبكالوريا الثلاثة مع بنك أسئلة وامتحانات تفاعلية ومعلم ذكي للشرح.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
